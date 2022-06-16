@@ -27,7 +27,7 @@ Syntax for the short form:
 ## Parameters<a name="getatt-parameters"></a>
 
 `logicalNameOfResource`  
-The logical name \(also called *logical ID*\) of the resource that contains the attribute that you want\.
+The logical name \(also called *logical ID*\) of the resource that contains the attribute that you want\. You can't use functions to specify a resource's logical ID, you must use a string\.
 
 `attributeName`  
 The name of the resource\-specific attribute whose value you want\. See the resource's reference page for details about the attributes available for that resource type\.
